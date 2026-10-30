@@ -1,3 +1,4 @@
+export { useBreakpoint, type Breakpoint } from "./breakpoint";
 export { BREAKPOINTS, GRID_COLUMNS, tabletSpan } from "./grid";
 export { AppShell, MenuGroup, MenuLink, type AppShellProps, type Crumb } from "./shell";
 export { DataTable, type DataTableProps } from "./table";

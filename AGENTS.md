@@ -10,7 +10,7 @@ Felles React-komponenter og designvariabler som gjør at alle dashboards er bygg
 
 - Pakken skal bare inneholde oppbygging. Domenelogikk og prosjektspesifikke komponenter hører hjemme i prosjektene.
 - Alt prosjekter kan endre, styres av CSS-variabler i `src/styles.css`. Standardfargene er nøytrale.
-- `src/styles.css` har nøyaktig 6 skriftstørrelser (`--text-*`). Ikke legg til flere.
+- `src/styles.css` har nøyaktig 6 skriftstørrelser (`--text-*`) og 2 fonter (`--font-sans` og `--font-mono`). Ikke legg til flere.
 - Skrift og avstander i CSS-en skal bruke variablene, ikke faste verdier.
 - Repoet er offentlig. Det skal ikke inneholde hemmeligheter eller detaljer om prosjektene som bruker det.
 - Pakken distribueres som TypeScript-kildekode via git-tagger. Etter en endring: øk `version` i `package.json` og lag taggen `vX.Y.Z`, som prosjektene deretter oppdaterer til.
